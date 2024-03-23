@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MoviesReviewApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Set colorPrimaryDark -->
+        <item name="colorPrimaryDark">@color/main_color</item>
+        <!-- Set window layout to extend under the camera notch -->
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+<!--    <style name="Theme.MoviesReviewApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Set colorPrimaryDark &ndash;&gt;-->
+<!--        <item name="colorPrimaryDark">@color/main_color</item>-->
+<!--        &lt;!&ndash; Set window layout to extend under the camera notch &ndash;&gt;-->
+<!--        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--    </style>-->
+</resources>
