@@ -33,7 +33,7 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(LoginActivity.this, "", Toast.LENGTH_SHORT).show();
                 }
                 else if(user.getText().toString().equals("test")||pass.getText().toString().equals("test")){
-                    startActivity(new Intent(LoginActivity.this,MainActivity.class));
+                    startActivity(new Intent(LoginActivity.this, MainIntromovie.class));
                 }
                 else{
                     Toast.makeText(LoginActivity.this, "user and password is incoreect", Toast.LENGTH_SHORT).show();

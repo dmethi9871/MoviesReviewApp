@@ -12,6 +12,9 @@
         android:theme="@style/Theme.MoviesReviewApp"
         tools:targetApi="34">
         <activity
+            android:name=".activities.Details"
+            android:exported="false" />
+        <activity
             android:name=".activities.MainIntromovie"
             android:exported="false" />
         <activity
